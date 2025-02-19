@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003.props" />
+</Project>
