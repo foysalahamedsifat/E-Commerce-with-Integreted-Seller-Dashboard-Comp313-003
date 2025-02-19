@@ -1,1 +1,4 @@
 /E-Commerce-backend/.vs/E-Commerce-Backend/FileContentIndex/*.vsidx
+/ecommerce-frontend/node_modules/.bin
+/ecommerce-frontend/node_modules/.cache
+/ecommerce-frontend/node_modules
