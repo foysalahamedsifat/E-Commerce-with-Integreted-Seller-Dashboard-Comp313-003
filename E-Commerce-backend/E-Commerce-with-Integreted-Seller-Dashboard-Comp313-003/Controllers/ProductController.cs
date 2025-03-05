@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JWTAuthentication.Controllers
 {
-    [Route("api/products")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {

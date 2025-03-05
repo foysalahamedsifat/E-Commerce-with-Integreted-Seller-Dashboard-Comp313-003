@@ -173,7 +173,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.ProductController",
     "Method": "GetProducts",
-    "RelativePath": "api/products",
+    "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -183,7 +183,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.ProductController",
     "Method": "AddProduct",
-    "RelativePath": "api/products",
+    "RelativePath": "api/Product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -199,7 +199,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.ProductController",
     "Method": "GetProduct",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/Product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -215,7 +215,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.ProductController",
     "Method": "UpdateProduct",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/Product/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -236,7 +236,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.ProductController",
     "Method": "DeleteProduct",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/Product/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
