@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "QHcQUwTAHhGXyLkV34qqwoFrhnvV587SUlFsuO7ahdw=",
+  "Hash": "ZBQ6YLiJGEIiVJXQSp5nWy3SzhfXP1a3hp/B5pcL6jo=",
   "Source": "E-Commerce-Backend",
   "BasePath": "_content/E-Commerce-Backend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "E-Commerce-Backend\\wwwroot",
+      "Source": "E-Commerce-Backend",
+      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "BasePath": "_content/E-Commerce-Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "SourceId": "E-Commerce-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "BasePath": "_content/E-Commerce-Backend",
+      "RelativePath": "images/4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png"
+    },
+    {
+      "Identity": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "SourceId": "E-Commerce-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "BasePath": "_content/E-Commerce-Backend",
+      "RelativePath": "images/d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png"
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "PackagePath": "staticwebassets\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png"
+    },
+    {
+      "Id": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "PackagePath": "staticwebassets\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce-Backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.E-Commerce-Backend.props",
+      "PackagePath": "build\\E-Commerce-Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.E-Commerce-Backend.props",
+      "PackagePath": "buildMultiTargeting\\E-Commerce-Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.E-Commerce-Backend.props",
+      "PackagePath": "buildTransitive\\E-Commerce-Backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

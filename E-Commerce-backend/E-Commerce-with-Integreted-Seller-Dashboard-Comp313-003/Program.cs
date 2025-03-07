@@ -28,7 +28,7 @@ builder.Services.AddSwaggerGen(options =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Enter 'Bearer' [space] and then your valid token. Example: \"Bearer eyJhbGciOiJIUzI1...\""
+        Description = "Enter your valid token. Example: \"eyJhbGciOiJIUzI1...\""
     });
 
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -50,26 +50,37 @@ builder.Services.AddSwaggerGen(options =>
 // Configure DbContext with the connection string
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("ConnStr")));
+// Add Identity services
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
+
+// Configure JWT Authentication
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
     {
-        options.RequireHttpsMetadata = false;
-        options.SaveToken = true;
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"])),
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidIssuer = configuration["JWT:ValidIssuer"],
-            ValidAudience = configuration["JWT:ValidAudience"]
-        };
-    });
-builder.Services.AddAuthentication();
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"])),
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
+        ValidAudience = builder.Configuration["JWT:ValidAudience"],
+        ClockSkew = TimeSpan.Zero // Optional: Ensures token expiration works precisely
+    };
+});
+
+// Add Authorization
 builder.Services.AddAuthorization();
+
+// Add Controllers
+builder.Services.AddControllers();
 
 
 var app = builder.Build();
@@ -82,7 +93,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();

@@ -3,6 +3,9 @@ using JWTAuthentication.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace JWTAuthentication.Controllers
 {
@@ -11,6 +14,7 @@ namespace JWTAuthentication.Controllers
     public class ProductController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly string _imageUploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images"); // Folder to save images
 
         public ProductController(ApplicationDbContext context)
         {
@@ -35,11 +39,17 @@ namespace JWTAuthentication.Controllers
         }
 
         // POST: api/products
-        [Authorize] // Requires authentication
+        [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddProduct([FromBody] Product product)
+        public async Task<IActionResult> AddProduct([FromForm] Product product, IFormFile image)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            if (image != null)
+            {
+                var imageUrl = await SaveImageAsync(image);
+                product.ImageUrl = imageUrl;
+            }
 
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
@@ -49,9 +59,15 @@ namespace JWTAuthentication.Controllers
         // PUT: api/products/{id}
         [Authorize]
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product updatedProduct)
+        public async Task<IActionResult> UpdateProduct(int id, [FromForm] Product updatedProduct, IFormFile image)
         {
             if (id != updatedProduct.ProductId) return BadRequest();
+
+            if (image != null)
+            {
+                var imageUrl = await SaveImageAsync(image);
+                updatedProduct.ImageUrl = imageUrl;
+            }
 
             _context.Entry(updatedProduct).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -69,6 +85,29 @@ namespace JWTAuthentication.Controllers
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+        // Helper method to save image and return the URL
+        private async Task<string> SaveImageAsync(IFormFile image)
+        {
+            if (image == null || image.Length == 0) return null;
+
+            var filePath = Path.Combine(_imageUploadFolder, Guid.NewGuid().ToString() + Path.GetExtension(image.FileName));
+
+            // Ensure directory exists
+            if (!Directory.Exists(_imageUploadFolder))
+            {
+                Directory.CreateDirectory(_imageUploadFolder);
+            }
+
+            // Save the image to the server
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await image.CopyToAsync(stream);
+            }
+
+            // Return the image URL (can be adjusted based on your URL structure)
+            return $"/images/{Path.GetFileName(filePath)}";
         }
     }
 }
