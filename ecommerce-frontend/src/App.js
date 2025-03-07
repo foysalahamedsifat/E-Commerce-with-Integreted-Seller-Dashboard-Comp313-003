@@ -1,19 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./Login";
-import Register from "./Register";
-import PrivateRoute from "./PrivateRoute";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Checkout from "./pages/Checkout";
+import Orders from "./pages/Orders";
+import AdminDashboard from "./pages/AdminDashboard";
+import Navbar from "./components/Navbar";
 
-function App() {
+const App = () => {
   return (
     <Router>
+      <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/dashboard" element={<PrivateRoute><h1>Dashboard</h1></PrivateRoute>} />
-        <Route path="/" element={<h1>Welcome to Shopify-Style Store</h1>} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/orders" element={<Orders />} />
+        <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
