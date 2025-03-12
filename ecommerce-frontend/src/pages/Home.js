@@ -14,7 +14,19 @@ const Home = () => {
   const cartItems = useSelector((state) => state.cart);
 
   useEffect(() => {
-    getProducts().then((res) => setProducts(res.data));
+    getProducts()
+      .then((res) => {
+        if (Array.isArray(res.data)) {
+          setProducts(res.data);
+        } else {
+          console.error("Expected array, got:", res.data);
+          setProducts([]);
+        }
+      })
+      .catch((err) => {
+        console.error("Failed to fetch products", err);
+        setProducts([]);
+      });
   }, []);
 
   const handleAddToCart = (product) => {
@@ -36,28 +48,32 @@ const Home = () => {
   return (
     <Container className="mt-4">
       <Row>
-        {products.map((product) => (
-          <Col md={4} key={product.productId}>
-            <Card className="mb-4 shadow-sm">
-              <Card.Img
-                variant="top"
-                src={getProductImage(product.imageUrl)}
-                style={{ height: "200px", objectFit: "cover" }}
-                alt={product.name}
-              />
-              <Card.Body>
-                <Card.Title>{product.name}</Card.Title>
-                <Card.Text>${product.price}</Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() => handleAddToCart(product)}
-                >
-                  Add to Cart
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
+        {Array.isArray(products) && products.length > 0 ? (
+          products.map((product) => (
+            <Col md={4} key={product.productId}>
+              <Card className="mb-4 shadow-sm">
+                <Card.Img
+                  variant="top"
+                  src={getProductImage(product.imageUrl)}
+                  style={{ height: "200px", objectFit: "cover" }}
+                  alt={product.name}
+                />
+                <Card.Body>
+                  <Card.Title>{product.name}</Card.Title>
+                  <Card.Text>${product.price}</Card.Text>
+                  <Button
+                    variant="primary"
+                    onClick={() => handleAddToCart(product)}
+                  >
+                    Add to Cart
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))
+        ) : (
+          <p>No products available.</p>
+        )}
       </Row>
     </Container>
   );

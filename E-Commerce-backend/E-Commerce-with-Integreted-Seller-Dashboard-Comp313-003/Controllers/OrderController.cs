@@ -64,12 +64,12 @@ namespace JWTAuthentication.Controllers
             {
                 UserId = userId,
                 OrderDate = DateTime.UtcNow,
-                TotalAmount = cartItems.Sum(c => c.Product.Price * c.Quantity),
+                TotalAmount = cartItems.Sum(c => c.Price * c.Quantity),
                 OrderDetails = cartItems.Select(c => new OrderDetail
                 {
                     ProductId = c.ProductId,
                     Quantity = c.Quantity,
-                    Price = c.Product.Price
+                    Price = c.Price
                 }).ToList()
             };
 
