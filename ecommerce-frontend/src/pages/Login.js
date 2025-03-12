@@ -23,7 +23,7 @@ const Login = () => {
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" onChange={(e) => setForm({ ...form, email: e.target.value })} />
+          <Form.Control type="text" onChange={(e) => setForm({ ...form, email: e.target.value })} />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Password</Form.Label>

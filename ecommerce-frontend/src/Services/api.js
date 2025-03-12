@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:7048/api"; // Change if backend URL is different
+const API_URL = "https://localhost:7048/api"; // Change if backend URL is different
 
 const api = axios.create({
   baseURL: API_URL,
@@ -12,9 +12,7 @@ const api = axios.create({
 // Set Auth Token for Requests
 export const setAuthToken = (token) => {
   if (token) {
-    api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
-  } else {
-    delete api.defaults.headers.common["Authorization"];
+    api.defaults.headers.common["Authorization"] = token ? `Bearer ${token}` : "";
   }
 };
 
@@ -33,4 +31,7 @@ export const removeFromCart = (id) => api.delete(`/cart/${id}`);
 
 // Order APIs
 export const placeOrder = (data) => api.post("/orders", data);
-export const
+export const getOrders = () => api.get("/orders");
+
+// Admin Analytics API (Add this to fix the import error)
+export const getAdminAnalytics = () => api.get("/admin/analytics");
