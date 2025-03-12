@@ -112,7 +112,13 @@ namespace JWTAuthentication.Controllers
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.Username
+                UserName = model.Username,
+                Address = model.Address,
+                PostalCode = model.PostalCode,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                PhoneNumber = model.PhoneNumber
+                
             };
             var result = await userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
