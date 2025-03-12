@@ -142,9 +142,7 @@ C:\Sifat\Drive F\Softwae Dev 2\DreamCommerce\Soft-Project-2\E-Commerce-with-Inte
 C:\Sifat\Drive F\Softwae Dev 2\DreamCommerce\Soft-Project-2\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\obj\Debug\net8.0\E-Commerce-Backend.pdb
 C:\Sifat\Drive F\Softwae Dev 2\DreamCommerce\Soft-Project-2\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\obj\Debug\net8.0\E-Commerce-Backend.genruntimeconfig.cache
 C:\Sifat\Drive F\Softwae Dev 2\DreamCommerce\Soft-Project-2\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\obj\Debug\net8.0\ref\E-Commerce-Backend.dll
-<<<<<<< HEAD
 C:\Sifat\Drive F\Softwae Dev 2\DreamCommerce\Soft-Project-2\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\bin\Debug\net8.0\E-Commerce-Backend.staticwebassets.runtime.json
-=======
 C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\bin\Debug\net8.0\appsettings.Development.json
 C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\bin\Debug\net8.0\appsettings.json
 C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\bin\Debug\net8.0\E-Commerce-Backend.staticwebassets.endpoints.json
@@ -293,4 +291,3 @@ C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-b
 C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\obj\Debug\net8.0\E-Commerce-Backend.pdb
 C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\obj\Debug\net8.0\E-Commerce-Backend.genruntimeconfig.cache
 C:\Projects\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\obj\Debug\net8.0\ref\E-Commerce-Backend.dll
->>>>>>> aeba6922069a6f5f64bed97f744f41a3ba4ce78b

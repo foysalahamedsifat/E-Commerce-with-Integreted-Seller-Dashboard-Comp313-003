@@ -1,16 +1,11 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "ZBQ6YLiJGEIiVJXQSp5nWy3SzhfXP1a3hp/B5pcL6jo=",
-=======
-  "Hash": "vAn4Vde3yokQpvoDOux+cXGFCxpfg9EatquQeTLwwWQ=",
->>>>>>> aeba6922069a6f5f64bed97f744f41a3ba4ce78b
   "Source": "E-Commerce-Backend",
   "BasePath": "_content/E-Commerce-Backend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-<<<<<<< HEAD
   "DiscoveryPatterns": [
     {
       "Name": "E-Commerce-Backend\\wwwroot",
@@ -60,9 +55,4 @@
       "OriginalItemSpec": "wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png"
     }
   ]
-=======
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
->>>>>>> aeba6922069a6f5f64bed97f744f41a3ba4ce78b
 }
