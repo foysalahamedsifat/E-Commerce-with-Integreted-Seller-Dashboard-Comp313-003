@@ -153,7 +153,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.OrderController",
     "Method": "GetOrders",
-    "RelativePath": "api/orders",
+    "RelativePath": "api/Order",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -163,8 +163,24 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.OrderController",
     "Method": "PlaceOrder",
-    "RelativePath": "api/orders",
+    "RelativePath": "api/Order",
     "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItems",
+        "Type": "System.Collections.Generic.List\u00601[[E_Commerce_Backend.Dto.CartItemDto, E-Commerce-Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTAuthentication.Controllers.OrderController",
+    "Method": "GetOrdersByUserId",
+    "RelativePath": "api/Order/user",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

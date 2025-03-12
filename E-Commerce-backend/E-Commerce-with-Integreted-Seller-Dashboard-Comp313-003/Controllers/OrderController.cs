@@ -1,4 +1,5 @@
-﻿using E_Commerce_Backend.Models;
+﻿using E_Commerce_Backend.Dto;
+using E_Commerce_Backend.Models;
 using JWTAuthentication.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,7 @@ using System.Security.Claims;
 
 namespace JWTAuthentication.Controllers
 {
-    [Route("api/orders")]
+    [Route("api/[controller]")]
     [ApiController]
     [Authorize]
     public class OrderController : ControllerBase
@@ -31,17 +32,32 @@ namespace JWTAuthentication.Controllers
                 .ToListAsync();
             return Ok(orders);
         }
+        [HttpGet("user")]
+        public async Task<IActionResult> GetOrdersByUserId()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (string.IsNullOrEmpty(userId))
+                return BadRequest("User ID is required");
+
+            var orders = await _context.Orders
+                .Where(o => o.UserId == userId)
+                .Include(o => o.OrderDetails)
+                .ThenInclude(od => od.Product)
+                .ToListAsync();
+
+            if (!orders.Any())
+                return NotFound($"No orders found for user ID: {userId}");
+
+            return Ok(orders);
+        }
 
         // POST: api/orders
         [HttpPost]
-        public async Task<IActionResult> PlaceOrder()
+        public async Task<IActionResult> PlaceOrder([FromBody] List<CartItemDto> cartItems)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var cartItems = await _context.CartItems
-                .Where(c => c.UserId == userId)
-                .Include(c => c.Product)
-                .ToListAsync();
-
+          
             if (!cartItems.Any()) return BadRequest("Cart is empty");
 
             var newOrder = new Order
@@ -58,7 +74,6 @@ namespace JWTAuthentication.Controllers
             };
 
             _context.Orders.Add(newOrder);
-            _context.CartItems.RemoveRange(cartItems);
             await _context.SaveChangesAsync();
 
             return Ok("Order placed successfully");

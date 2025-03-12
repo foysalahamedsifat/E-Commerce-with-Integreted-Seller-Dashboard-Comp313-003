@@ -30,8 +30,10 @@ export const getCart = () => api.get("/cart");
 export const removeFromCart = (id) => api.delete(`/cart/${id}`);
 
 // Order APIs
-export const placeOrder = (data) => api.post("/orders", data);
-export const getOrders = () => api.get("/orders");
+export const placeOrder = (data) => api.post("/order", data);
+export const getOrders = () => api.get("/order");
+export const getUserOrders = () => api.get("/order/user");
+
 
 // Admin Analytics API (Add this to fix the import error)
 export const getAdminAnalytics = () => api.get("/admin/analytics");
