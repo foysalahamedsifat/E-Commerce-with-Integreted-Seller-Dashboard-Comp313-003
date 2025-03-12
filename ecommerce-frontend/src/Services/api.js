@@ -19,6 +19,7 @@ export const setAuthToken = (token) => {
 // Authentication APIs
 export const login = (data) => api.post("/Authenticate/login", data);
 export const register = (data) => api.post("/Authenticate/register", data);
+export const registerAdmin = (data) => api.post("/Authenticate/register-admin", data);
 
 // Product APIs
 export const getProducts = () => api.get("/product");

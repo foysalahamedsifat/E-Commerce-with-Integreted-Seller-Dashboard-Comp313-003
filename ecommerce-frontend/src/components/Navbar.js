@@ -5,7 +5,9 @@ import { logout } from "../redux/authSlice";
 import { Navbar, Nav, Container, Button, Badge } from "react-bootstrap";
 
 const MyNavbar = () => {
-  const user  = useSelector((state) => state.auth.user);
+  const user = useSelector((state) => state.auth.user);
+  const roles = useSelector((state) => state.auth.roles);
+
   const cartItems = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
@@ -15,6 +17,9 @@ const MyNavbar = () => {
 
   // Calculate total quantity in cart
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+
+  // If roles is an array, check if it includes 'admin'
+  const isAdmin = Array.isArray(roles) ? roles.includes("Admin") : roles === "Admin";
 
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
@@ -29,13 +34,24 @@ const MyNavbar = () => {
               </Badge>
             )}
           </Nav.Link>
+
           {user ? (
             <>
               <Nav.Link as={Link} to="/orders">Orders</Nav.Link>
-              <Button variant="outline-light" onClick={handleLogout}>{user} - Logout</Button>
+              <Button variant="outline-light" onClick={handleLogout}>
+                {user} - Logout
+              </Button>
             </>
           ) : (
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <>
+              <Nav.Link as={Link} to="/login">Login</Nav.Link>
+              <Nav.Link as={Link} to="/registration">Registration</Nav.Link>
+            </>
+          )}
+
+          {/* This admin link will show only if isAdmin is true */}
+          {isAdmin && (
+            <Nav.Link as={Link} to="/registration-admin">Admin Register</Nav.Link>
           )}
         </Nav>
       </Container>

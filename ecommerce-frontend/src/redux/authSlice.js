@@ -7,6 +7,7 @@ const authSlice = createSlice({
     loginSuccess: (state, action) => {
       state.user = action.payload.username;
       state.token = action.payload.token;
+      state.roles = action.payload.roles;
     },
     logout: (state) => {
       state.user = null;
