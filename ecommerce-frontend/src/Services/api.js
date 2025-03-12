@@ -17,12 +17,12 @@ export const setAuthToken = (token) => {
 };
 
 // Authentication APIs
-export const login = (data) => api.post("/auth/login", data);
-export const register = (data) => api.post("/auth/register", data);
+export const login = (data) => api.post("/Authenticate/login", data);
+export const register = (data) => api.post("/Authenticate/register", data);
 
 // Product APIs
-export const getProducts = () => api.get("/products");
-export const getProductById = (id) => api.get(`/products/${id}`);
+export const getProducts = () => api.get("/product");
+export const getProductById = (id) => api.get(`/product/${id}`);
 
 // Cart APIs
 export const addToCart = (data) => api.post("/cart", data);
