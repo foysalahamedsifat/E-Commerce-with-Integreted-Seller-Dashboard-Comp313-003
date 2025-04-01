@@ -8,11 +8,17 @@ const api = axios.create({
     "Content-Type": "application/json",
   },
 });
-
+const multi_api = axios.create({
+  baseURL: API_URL,
+  headers: {
+    "Content-Type": "multipart/form-data",
+  },
+});
 // Set Auth Token for Requests
 export const setAuthToken = (token) => {
   if (token) {
     api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
+    multi_api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
   }
 };
 
@@ -26,13 +32,11 @@ export const getProducts = () => api.get("/product");
 export const getProductById = (id) => api.get(`/product/${id}`);
 
 // Admin Product Management APIs
-export const addProduct = (productData) => 
-  api.post("/product", productData, { headers: { "Content-Type": "multipart/form-data" } });
+export const addProduct = (productData) => multi_api.post("/product", productData);
 
-export const updateProduct = (id, productData) => 
-  api.put(`/product/${id}`, productData, { headers: { "Content-Type": "multipart/form-data" } });
+export const updateProduct = (id, productData) => multi_api.put(`/product/${id}`, productData);
 
-export const deleteProduct = (id) => api.delete(`/product/${id}`);
+export const deleteProduct = (id) => multi_api.delete(`/product/${id}`);
 
 // Cart APIs
 export const addToCart = (data) => api.post("/cart", data);
