@@ -26,9 +26,16 @@ const Checkout = () => {
         setErrorMessage("Your cart is empty.");
         return;
       }
-
-      const res = await placeOrder(cartItems); // You can remove token if set globally via setAuthToken()
-
+  
+      // Extract only the required fields
+      const orderItems = cartItems.map(({ productId, quantity, price }) => ({
+        productId,
+        quantity,
+        price,
+      }));
+  
+      const res = await placeOrder(orderItems); // Send only required data
+  
       if (res.status === 200 || res.status === 201) {
         setMessage("Order placed successfully!");
         dispatch(clearCart());
@@ -41,6 +48,7 @@ const Checkout = () => {
       setErrorMessage("An error occurred while placing the order.");
     }
   };
+  
 
   return (
     <Container className="mt-4">

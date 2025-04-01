@@ -7,7 +7,6 @@ import { Navbar, Nav, Container, Button, Badge } from "react-bootstrap";
 const MyNavbar = () => {
   const user = useSelector((state) => state.auth.user);
   const roles = useSelector((state) => state.auth.roles);
-
   const cartItems = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
@@ -18,7 +17,7 @@ const MyNavbar = () => {
   // Calculate total quantity in cart
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
-  // If roles is an array, check if it includes 'admin'
+  // If roles is an array, check if it includes 'Admin'
   const isAdmin = Array.isArray(roles) ? roles.includes("Admin") : roles === "Admin";
 
   return (
@@ -49,9 +48,12 @@ const MyNavbar = () => {
             </>
           )}
 
-          {/* This admin link will show only if isAdmin is true */}
+          {/* Admin Links */}
           {isAdmin && (
-            <Nav.Link as={Link} to="/registration-admin">Admin Register</Nav.Link>
+            <>
+              <Nav.Link as={Link} to="/registration-admin">Admin Register</Nav.Link>
+              <Nav.Link as={Link} to="/admin/products">Manage Products</Nav.Link> {/* New link */}
+            </>
           )}
         </Nav>
       </Container>
