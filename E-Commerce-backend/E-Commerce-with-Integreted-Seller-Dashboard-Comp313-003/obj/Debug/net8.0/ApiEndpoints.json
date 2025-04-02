@@ -2,7 +2,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.AdminAnalyticsController",
     "Method": "GetBestSellingProducts",
-    "RelativePath": "api/admin/analytics/best-selling-products",
+    "RelativePath": "api/AdminAnalytics/best-selling-products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.AdminAnalyticsController",
     "Method": "GetOrderStatusDistribution",
-    "RelativePath": "api/admin/analytics/order-status",
+    "RelativePath": "api/AdminAnalytics/order-status",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.AdminAnalyticsController",
     "Method": "GetSalesReport",
-    "RelativePath": "api/admin/analytics/sales-report",
+    "RelativePath": "api/AdminAnalytics/sales-report",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -43,7 +43,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.AdminAnalyticsController",
     "Method": "GetDashboardSummary",
-    "RelativePath": "api/admin/analytics/summary",
+    "RelativePath": "api/AdminAnalytics/summary",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -53,7 +53,7 @@
   {
     "ContainingType": "JWTAuthentication.Controllers.AdminAnalyticsController",
     "Method": "GetUserStatistics",
-    "RelativePath": "api/admin/analytics/user-statistics",
+    "RelativePath": "api/AdminAnalytics/user-statistics",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

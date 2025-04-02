@@ -7,9 +7,9 @@ using System.Security.Claims;
 
 namespace JWTAuthentication.Controllers
 {
-    [Route("api/admin/analytics")]
+    [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")] // Only admins can access
+    [Authorize] // Only admins can access
     public class AdminAnalyticsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

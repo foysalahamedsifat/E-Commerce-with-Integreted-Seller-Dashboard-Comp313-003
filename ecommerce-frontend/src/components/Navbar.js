@@ -53,6 +53,8 @@ const MyNavbar = () => {
             <>
               <Nav.Link as={Link} to="/registration-admin">Admin Register</Nav.Link>
               <Nav.Link as={Link} to="/admin/products">Manage Products</Nav.Link> {/* New link */}
+              <Nav.Link as={Link} to="/admin">Admin Analytics</Nav.Link> {/* New link */}
+
             </>
           )}
         </Nav>

@@ -33,9 +33,7 @@ export const getProductById = (id) => api.get(`/product/${id}`);
 
 // Admin Product Management APIs
 export const addProduct = (productData) => multi_api.post("/product", productData);
-
 export const updateProduct = (id, productData) => multi_api.put(`/product/${id}`, productData);
-
 export const deleteProduct = (id) => multi_api.delete(`/product/${id}`);
 
 // Cart APIs
@@ -48,5 +46,9 @@ export const placeOrder = (data) => api.post("/order", data);
 export const getOrders = () => api.get("/order");
 export const getUserOrders = () => api.get("/order/user");
 
-// Admin APIs
-export const getAdminAnalytics = () => api.get("/admin/analytics"); // Added this to fix the error
+// Admin Analytics APIs
+export const getDashboardSummary = () => api.get("/adminanalytics/summary");
+export const getBestSellingProducts = () => api.get("/adminanalytics/best-selling-products");
+export const getSalesReport = (startDate, endDate) => api.get(`/adminanalytics/sales-report?startDate=${startDate}&endDate=${endDate}`);
+export const getUserStatistics = () => api.get("/adminanalytics/user-statistics");
+export const getOrderStatusDistribution = () => api.get("/adminanalytics/order-status");
