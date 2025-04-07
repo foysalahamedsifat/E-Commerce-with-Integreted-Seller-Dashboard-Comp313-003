@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/9ShaUsrHTwCFnLftGLlKuiGcfDDBOpytwUsl1EYfNk=",
+  "Hash": "7/ZqWRbG8FCbHuI4iKmjLmVM1RA2Tlf5IvsPiAYOIQc=",
   "Source": "E-Commerce-Backend",
   "BasePath": "_content/E-Commerce-Backend",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg"
+    },
+    {
+      "Identity": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.png",
+      "SourceId": "E-Commerce-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "BasePath": "_content/E-Commerce-Backend",
+      "RelativePath": "images/4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dzi23rndf0",
+      "Integrity": "mavwuieHrqFEoy29fMxT2/3u/IxHZmzx1PXP66wHaw8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.png"
     },
     {
       "Identity": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
@@ -181,6 +202,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8="
+        }
+      ]
+    },
+    {
+      "Route": "images/4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.dzi23rndf0.png",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mavwuieHrqFEoy29fMxT2/3u/IxHZmzx1PXP66wHaw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 22:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzi23rndf0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mavwuieHrqFEoy29fMxT2/3u/IxHZmzx1PXP66wHaw8="
+        }
+      ]
+    },
+    {
+      "Route": "images/4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.png",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4a1fb4da-bc64-4f1a-9df5-69bfcbd9c3df.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "664694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mavwuieHrqFEoy29fMxT2/3u/IxHZmzx1PXP66wHaw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 22:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mavwuieHrqFEoy29fMxT2/3u/IxHZmzx1PXP66wHaw8="
         }
       ]
     },

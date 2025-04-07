@@ -36,21 +36,23 @@ namespace JWTAuthentication.Controllers
         public async Task<IActionResult> GetOrdersByUserId()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
             if (string.IsNullOrEmpty(userId))
+            {
                 return BadRequest("User ID is required");
+            }
 
             var orders = await _context.Orders
-                .Where(o => o.UserId == userId)
-                .Include(o => o.OrderDetails)
-                .ThenInclude(od => od.Product)
-                .ToListAsync();
+                                       .Where(o => o.UserId == userId)
+                                       .ToListAsync();
 
             if (!orders.Any())
+            {
                 return NotFound($"No orders found for user ID: {userId}");
+            }
 
             return Ok(orders);
         }
+
 
         // POST: api/orders
         [HttpPost]

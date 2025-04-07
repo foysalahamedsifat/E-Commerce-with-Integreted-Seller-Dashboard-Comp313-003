@@ -160,3 +160,12 @@ D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce
 D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\E-Commerce-Backend.dll
 D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\E-Commerce-Backend.pdb
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestForBackendAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
