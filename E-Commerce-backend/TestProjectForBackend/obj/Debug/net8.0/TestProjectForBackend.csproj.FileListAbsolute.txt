@@ -1,0 +1,6 @@
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestProjectForBackend\obj\Debug\net8.0\TestProjectForBackend.csproj.AssemblyReference.cache
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestProjectForBackend\obj\Debug\net8.0\TestProjectForBackend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestProjectForBackend\obj\Debug\net8.0\TestProjectForBackend.AssemblyInfoInputs.cache
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestProjectForBackend\obj\Debug\net8.0\TestProjectForBackend.AssemblyInfo.cs
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestProjectForBackend\obj\Debug\net8.0\TestProjectForBackend.csproj.CoreCompileInputs.cache
+D:\Semester 6\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\E-Commerce-backend\TestProjectForBackend\obj\Debug\net8.0\TestProjectForBackend.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/SIAqZaw8p0Sc/MQCYyBduo3Jc22xTFz5phRoy9hLKE=",
+  "Hash": "/9ShaUsrHTwCFnLftGLlKuiGcfDDBOpytwUsl1EYfNk=",
   "Source": "E-Commerce-Backend",
   "BasePath": "_content/E-Commerce-Backend",
   "Mode": "Default",
@@ -10,87 +10,425 @@
     {
       "Name": "E-Commerce-Backend\\wwwroot",
       "Source": "E-Commerce-Backend",
-      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "ContentRoot": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
       "BasePath": "_content/E-Commerce-Backend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
+      "Identity": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
       "SourceId": "E-Commerce-Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "ContentRoot": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
       "BasePath": "_content/E-Commerce-Backend",
-      "RelativePath": "images/0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
+      "RelativePath": "images/0f75498e-fe98-4b4d-95c6-d46e267563d3#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fuoypdwlpt",
+      "Integrity": "uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg"
     },
     {
-      "Identity": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "Identity": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
       "SourceId": "E-Commerce-Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "ContentRoot": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
       "BasePath": "_content/E-Commerce-Backend",
-      "RelativePath": "images/4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "RelativePath": "images/4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "nad1ca406v",
+      "Integrity": "cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png"
     },
     {
-      "Identity": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
+      "Identity": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
       "SourceId": "E-Commerce-Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "ContentRoot": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
       "BasePath": "_content/E-Commerce-Backend",
-      "RelativePath": "images/799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
+      "RelativePath": "images/799b50a0-cad4-4bd4-ae05-a592f4f09bfd#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fuoypdwlpt",
+      "Integrity": "uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg"
     },
     {
-      "Identity": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "Identity": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
       "SourceId": "E-Commerce-Backend",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
+      "ContentRoot": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\",
       "BasePath": "_content/E-Commerce-Backend",
-      "RelativePath": "images/d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "RelativePath": "images/d2d22896-d4d2-4254-b99c-963a759aa627#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "nad1ca406v",
+      "Integrity": "cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/0f75498e-fe98-4b4d-95c6-d46e267563d3.fuoypdwlpt.jpeg",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fuoypdwlpt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.nad1ca406v.png",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nad1ca406v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c="
+        }
+      ]
+    },
+    {
+      "Route": "images/799b50a0-cad4-4bd4-ae05-a592f4f09bfd.fuoypdwlpt.jpeg",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fuoypdwlpt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8="
+        }
+      ]
+    },
+    {
+      "Route": "images/799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQCyTmQxhVWWehL8haa2W/CEn60qg3By22n75KMM/I8="
+        }
+      ]
+    },
+    {
+      "Route": "images/d2d22896-d4d2-4254-b99c-963a759aa627.nad1ca406v.png",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nad1ca406v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d2d22896-d4d2-4254-b99c-963a759aa627.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c="
+        }
+      ]
+    },
+    {
+      "Route": "images/d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "AssetFile": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cdICWPut5/nmzCq5Na8Fs00ydDrbSfltq+tz3inK05c="
+        }
+      ]
     }
   ]
 }

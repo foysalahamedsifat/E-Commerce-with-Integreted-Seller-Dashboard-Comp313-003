@@ -1,20 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
+      "Id": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg",
       "PackagePath": "staticwebassets\\images\\0f75498e-fe98-4b4d-95c6-d46e267563d3.jpeg"
     },
     {
-      "Id": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
+      "Id": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png",
       "PackagePath": "staticwebassets\\images\\4e3bf90f-8c0d-48b5-85c1-9fb1258ef43e.png"
     },
     {
-      "Id": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
+      "Id": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg",
       "PackagePath": "staticwebassets\\images\\799b50a0-cad4-4bd4-ae05-a592f4f09bfd.jpeg"
     },
     {
-      "Id": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
+      "Id": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\wwwroot\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png",
       "PackagePath": "staticwebassets\\images\\d2d22896-d4d2-4254-b99c-963a759aa627.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce-Backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce-Backend.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,102 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\",
+  "WorkspaceRootPath": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\adminanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\adminanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|d:\\semester 6\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|d:\\semester 6\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|d:\\semester 6\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A379285-E351-4034-B37D-C80C8CB3DEEC}|TestForBackendAPI\\TestForBackendAPI.csproj|d:\\semester 6\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\testforbackendapi\\authenticatecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A379285-E351-4034-B37D-C80C8CB3DEEC}|TestForBackendAPI\\TestForBackendAPI.csproj|solutionrelative:testforbackendapi\\authenticatecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-with-integreted-seller-dashboard-comp313-003.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-with-integreted-seller-dashboard-comp313-003.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\authentication\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\migrations\\20250214230324_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\migrations\\20250214230324_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|c:\\sifat\\drive f\\softwae dev 2\\dreamcommerce\\soft-project-2\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\migrations\\20250304175959_database-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\migrations\\20250304175959_database-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|d:\\semester 6\\e-commerce-with-integreted-seller-dashboard-comp313-003\\e-commerce-backend\\e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058AA356-F624-4E1E-B723-AFEB0FFF9302}|E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj|solutionrelative:e-commerce-with-integreted-seller-dashboard-comp313-003\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,299 +30,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminAnalyticsController.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AdminAnalyticsController.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AdminAnalyticsController.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AdminAnalyticsController.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AdminAnalyticsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:57:22.789Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\.gitignore",
+              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\.gitignore",
+              "ToolTip": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\.gitignore",
+              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\.gitignore",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-07T21:38:02.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:54:21.997Z",
+              "DocumentIndex": 1,
+              "Title": "E-Commerce-Backend",
+              "DocumentMoniker": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "ToolTip": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T21:37:13.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwDAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T22:50:13.465Z",
+              "Title": "E-Commerce-Backend",
+              "DocumentMoniker": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "ToolTip": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T21:35:52.601Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Product.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Product.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:39:03.066Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Program.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Program.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Program.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Program.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAqwBwAAAAnAAAAAAAAAA==",
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwE8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T05:36:21.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:51:47.296Z",
+              "WhenOpened": "2025-04-07T20:52:32.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\CartController.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Controllers\\CartController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwCIAAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AuthenticateControllerTests.cs",
+              "DocumentMoniker": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\TestForBackendAPI\\AuthenticateControllerTests.cs",
+              "RelativeDocumentMoniker": "TestForBackendAPI\\AuthenticateControllerTests.cs",
+              "ToolTip": "D:\\Semester 6\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\TestForBackendAPI\\AuthenticateControllerTests.cs",
+              "RelativeToolTip": "TestForBackendAPI\\AuthenticateControllerTests.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAowH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:53:05.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "E-Commerce-Backend.csproj",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-Backend.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-19T17:36:06.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CartItemDto.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Dto\\CartItemDto.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Dto\\CartItemDto.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Dto\\CartItemDto.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Dto\\CartItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:25:27.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\OrderDetail.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:42:07.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\RegisterModel.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\RegisterModel.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\RegisterModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA7wCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T21:08:35.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Order.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Order.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\Order.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:41:09.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\CartItem.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:43:09.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationDbContext.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T22:48:55.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.json",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.json",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.json",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T21:10:43.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.Development.json",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.Development.json",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-07T05:37:49.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Properties\\launchSettings.json",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T21:11:26.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003.http",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003.http",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003.http",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003.http",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-19T17:36:00.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\LoginModel.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\LoginModel.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\LoginModel.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T21:08:34.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20250304175959_database-migration.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250304175959_database-migration.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250304175959_database-migration.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250304175959_database-migration.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250304175959_database-migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T18:00:00.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserRoles.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\UserRoles.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\UserRoles.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\UserRoles.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\UserRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T21:08:45.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\Response.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\Response.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\Response.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T21:08:36.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationUser.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationUser.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Authentication\\ApplicationUser.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T21:08:32.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250214230324_initial.cs",
-              "DocumentMoniker": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250214230324_initial.cs",
-              "RelativeDocumentMoniker": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250214230324_initial.cs",
-              "ToolTip": "C:\\Sifat\\Drive F\\Softwae Dev 2\\DreamCommerce\\Soft-Project-2\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\E-Commerce-backend\\E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250214230324_initial.cs",
-              "RelativeToolTip": "E-Commerce-with-Integreted-Seller-Dashboard-Comp313-003\\Migrations\\20250214230324_initial.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAIBJwOQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T23:03:25.257Z"
+              "WhenOpened": "2025-04-07T20:55:38.945Z",
+              "EditorCaption": ""
             }
           ]
         }
