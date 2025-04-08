@@ -52,44 +52,55 @@ namespace TestForBackendAPI
             Assert.Equal(5, summary.PendingOrders);
             Assert.Equal(15, summary.CompletedOrders);
         }
-
         [Fact]
         public async Task GetBestSellingProducts_ReturnsOkResult_WithBestSellingProducts()
         {
             // Arrange
-            var orderDetails = new List<OrderDetail>
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(databaseName: "TestDatabase")
+                .Options;
+
+            using (var context = new ApplicationDbContext(options))
             {
-                new OrderDetail { ProductId = 1, Product = new Product { ProductId = 1, Name = "Product1" }, Quantity = 10, Price = 100 },
-                new OrderDetail { ProductId = 2, Product = new Product { ProductId = 2, Name = "Product2" }, Quantity = 5, Price = 200 },
-                new OrderDetail { ProductId = 1, Product = new Product { ProductId = 1, Name = "Product1" }, Quantity = 5, Price = 100 }
-            }.AsQueryable();
+                var product1 = new Product { ProductId = 1, Name = "Product1", Description = "Description1", ImageUrl = "ImageUrl1" };
+                var product2 = new Product { ProductId = 2, Name = "Product2", Description = "Description2", ImageUrl = "ImageUrl2" };
 
-            var mockSet = new Mock<DbSet<OrderDetail>>();
-            mockSet.As<IQueryable<OrderDetail>>().Setup(m => m.Provider).Returns(orderDetails.Provider);
-            mockSet.As<IQueryable<OrderDetail>>().Setup(m => m.Expression).Returns(orderDetails.Expression);
-            mockSet.As<IQueryable<OrderDetail>>().Setup(m => m.ElementType).Returns(orderDetails.ElementType);
-            mockSet.As<IQueryable<OrderDetail>>().Setup(m => m.GetEnumerator()).Returns(orderDetails.GetEnumerator());
+                context.Products.AddRange(product1, product2);
+                context.OrderDetails.AddRange(
+                    new OrderDetail { ProductId = 1, Product = product1, Quantity = 10, Price = 100 },
+                    new OrderDetail { ProductId = 2, Product = product2, Quantity = 5, Price = 200 },
+                    new OrderDetail { ProductId = 1, Product = product1, Quantity = 5, Price = 100 }
+                );
+                context.SaveChanges();
+            }
 
-            _mockContext.Setup(c => c.OrderDetails).Returns(mockSet.Object);
+            using (var context = new ApplicationDbContext(options))
+            {
+                var controller = new AdminAnalyticsController(context);
 
-            // Act
-            var result = await _controller.GetBestSellingProducts();
+                // Act
+                var result = await controller.GetBestSellingProducts();
 
-            // Assert
-            var okResult = Assert.IsType<OkObjectResult>(result);
-            var products = Assert.IsType<List<dynamic>>(okResult.Value);
-            Assert.Equal(2, products.Count);
+                // Assert
+                var okResult = Assert.IsType<OkObjectResult>(result);
+                var products = Assert.IsType<List<object>>(okResult.Value);
+                Assert.Equal(2, products.Count);
 
-            // The first product should be Product1 with total quantity of 15
-            Assert.Equal("Product1", products[0].ProductName);
-            Assert.Equal(15, products[0].TotalQuantitySold);
-            Assert.Equal(1500m, products[0].TotalRevenueGenerated);
+                // The first product should be Product1 with total quantity of 15
+                dynamic product1 = products[0];
+                Assert.Equal("Product1", product1.ProductName);
+                Assert.Equal(15, product1.TotalQuantitySold);
+                Assert.Equal(1500m, product1.TotalRevenueGenerated);
 
-            // The second product should be Product2 with total quantity of 5
-            Assert.Equal("Product2", products[1].ProductName);
-            Assert.Equal(5, products[1].TotalQuantitySold);
-            Assert.Equal(1000m, products[1].TotalRevenueGenerated);
+                // The second product should be Product2 with total quantity of 5
+                dynamic product2 = products[1];
+                Assert.Equal("Product2", product2.ProductName);
+                Assert.Equal(5, product2.TotalQuantitySold);
+                Assert.Equal(1000m, product2.TotalRevenueGenerated);
+            }
         }
+
+
 
         [Fact]
         public async Task GetSalesReport_ReturnsOkResult_WithSalesData()
@@ -161,12 +172,12 @@ namespace TestForBackendAPI
             Assert.Equal(2, userStats.Count);
 
             // John should have 2 users
-            Assert.Equal("John", userStats[0].Date);
-            Assert.Equal(2, userStats[0].NewUsers);
+            Assert.Equal("John", userStats[0].FirstName);
+            Assert.Equal(2, userStats[0].Count);
 
             // Jane should have 1 user
-            Assert.Equal("Jane", userStats[1].Date);
-            Assert.Equal(1, userStats[1].NewUsers);
+            Assert.Equal("Jane", userStats[1].FirstName);
+            Assert.Equal(1, userStats[1].Count);
         }
 
         [Fact]

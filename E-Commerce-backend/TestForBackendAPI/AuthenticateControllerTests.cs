@@ -36,9 +36,11 @@ namespace TestForBackendAPI
 
             // Assert
             var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
-            var value = Assert.IsType<Dictionary<string, string>>(badRequestResult.Value);
-            Assert.Equal("Username and Password are required.", value["message"]);
+            var value = Assert.IsType<ErrorResponse>(badRequestResult.Value);
+            Assert.Equal("Username and Password are required.", value.Message);
         }
+
+
 
         [Fact]
         public async Task Login_ReturnsUnauthorized_WhenInvalidCredentials()
@@ -52,8 +54,8 @@ namespace TestForBackendAPI
 
             // Assert
             var unauthorizedResult = Assert.IsType<UnauthorizedObjectResult>(result);
-            var value = Assert.IsType<Dictionary<string, string>>(unauthorizedResult.Value);
-            Assert.Equal("Invalid credentials.", value["message"]);
+            dynamic value = unauthorizedResult.Value;
+            Assert.Equal("Invalid credentials.", value.message);
         }
 
         [Fact]
@@ -125,5 +127,4 @@ namespace TestForBackendAPI
             Assert.Equal("User created successfully!", value.Message);
         }
     }
-
 }
