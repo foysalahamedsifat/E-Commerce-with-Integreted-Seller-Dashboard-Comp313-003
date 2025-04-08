@@ -43,7 +43,9 @@ namespace JWTAuthentication.Controllers
 
             var orders = await _context.Orders
                                        .Where(o => o.UserId == userId)
-                                       .ToListAsync();
+                .Include(o => o.OrderDetails)
+                .ThenInclude(od => od.Product)
+                .ToListAsync();
 
             if (!orders.Any())
             {
