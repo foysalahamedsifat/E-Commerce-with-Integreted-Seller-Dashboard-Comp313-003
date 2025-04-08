@@ -52,13 +52,13 @@ namespace TestForBackendAPI
         new CartItem
         {
             UserId = userId,
-            ProductId = 1,
+            ProductId = 5,
             Quantity = 2,
             Product = new Product
             {
-                ProductId = 1,
+                ProductId = 5,
                 Name = "Product 1",
-                Price = 10.99m,
+                Price = 10,
                 Description = "Test Description 1",
                 ImageUrl = "http://example.com/product1.jpg"
             }
@@ -66,13 +66,13 @@ namespace TestForBackendAPI
         new CartItem
         {
             UserId = userId,
-            ProductId = 2,
+            ProductId = 5,
             Quantity = 1,
             Product = new Product
             {
-                ProductId = 2,
+                ProductId = 5,
                 Name = "Product 2",
-                Price = 20.50m,
+                Price = 20,
                 Description = "Test Description 2",
                 ImageUrl = "http://example.com/product2.jpg"
             }
