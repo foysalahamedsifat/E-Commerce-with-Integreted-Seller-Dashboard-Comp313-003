@@ -23,3 +23,6 @@
 /E-Commerce-backend/TestForBackendAPI/obj/project.assets.json
 /E-Commerce-backend/TestForBackendAPI/obj/project.nuget.cache
 /E-Commerce-backend/.vs/E-Commerce-Backend/DesignTimeBuild/*.v2
+/E-Commerce-backend/TestForBackendAPI/obj/Debug/net8.0/TestForBackendAPI.AssemblyInfo.cs
+/E-Commerce-backend/TestForBackendAPI/obj/Debug/net8.0/TestForBackendAPI.AssemblyInfoInputs.cache
+/E-Commerce-backend/TestForBackendAPI/obj/Debug/net8.0/TestForBackendAPI.csproj.AssemblyReference.cache
